@@ -1,8 +1,8 @@
-# Rivram Mini — Deployment Test
+ Deployment Test
 
-A small, standalone replica of the Rivram architecture, built to prove out
+A small, standalone replica of  architecture, built to prove out
 the Vercel + Render + Gemini deployment path before committing to it for
-the real project. **This is not the real Rivram codebase** — it does not
+the real project. *** — it does not
 import, modify, or depend on it in any way.
 
 ## Architecture
