@@ -1,0 +1,23 @@
+# OS / editor
+.DS_Store
+*.swp
+
+# Python
+**/venv/
+**/__pycache__/
+**/*.pyc
+
+# Env / secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Node / Next.js
+**/node_modules/
+**/.next/
+**/out/
+**/*.tsbuildinfo
+**/next-env.d.ts
+
+# Local data store (ephemeral, may contain real chat content from local testing)
+backend/storage/conversations.json
