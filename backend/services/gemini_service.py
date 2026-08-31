@@ -18,7 +18,7 @@ def _get_client() -> genai.Client:
 
 
 def _get_model() -> str:
-    return os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+    return os.environ.get("GEMINI_MODEL", "gemini-3.6-flash")
 
 
 def _build_contents(history: list[dict], new_message: str) -> list[types.Content]:
